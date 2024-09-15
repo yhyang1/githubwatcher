@@ -1,0 +1,104 @@
+# macOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 图标必须在资源库中，.#表示不包含
+Icon?
+._*
+
+# 避免自动创建的文件
+.Spotlight-V100
+.Trashes
+# 适用于 APFS（Apple 文件系统）
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Python 虚拟环境
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python 相关文件
+*.py[cod]
+__pycache__/
+*.so
+*.egg-info/
+*.egg
+*.pyo
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# 单元测试的缓存
+.tox/
+.nox/
+
+# IDE 文件 (包括 PyCharm)
+.idea/
+.vscode/
+
+# PyCharm 的工作目录 (避免特定于本地的配置)
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+.idea/**/shelf
+.idea/**/modules.xml
+.idea/**/assets/
+.idea/**/jarRepositories.xml
+.idea/**/vcs.xml
+.idea/.idea/workspace.xml
+
+# 日志文件
+*.log
+
+# 本地配置文件
+*.env
+*.local
+*.config
+
+# 覆盖率报告
+htmlcov/
+.coverage
+.coverage.*
+
+# pytest 文件
+.cache/
+pytest_cache/
+
+# 锁定文件
+*.lock
+
+# FastAPI 静态文件和缓存
+staticfiles/
+__fastapi_cache__/
+
+# Uvicorn 临时文件
+*.sock
+
+# 数据库
+*.db
+*.sqlite3
+db.sqlite3
+
+# PyInstaller
+*.manifest
+*.spec
+
+# distutils / setuptools
+build/
+dist/
+
+# 打包文件
+pip-log.txt
+pip-delete-this-directory.txt
+installer-log.txt
+
+# PyCharm Python Console history
+.idea/consoleHistory/
