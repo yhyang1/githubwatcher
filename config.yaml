@@ -1,0 +1,13 @@
+github:
+  api_url: "https://api.github.com"
+  access_token: "your_github_token"
+
+smtp:
+  server: "smtp.example.com"
+  port: 587
+  username: "yourusername"
+  password: "yourpassword"
+  from_email: "youremail@example.com"
+
+scheduler:
+  interval_hours: 1
